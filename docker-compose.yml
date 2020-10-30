@@ -15,7 +15,7 @@ services:
       - multi-gateway-network
 
   device-management-service:
-    image: smartenergyplatform/multi-gateway-hub:${CC_MULTI_HUB_ENVIRONMENT}
+    image: smartenergyplatform/device-manager:${CC_MULTI_HUB_ENVIRONMENT}
     ports:
       - "7002:80"
     environment:
