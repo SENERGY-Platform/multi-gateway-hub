@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3"
 services:
   message-broker:
     image: smartenergyplatform/mosquitto-env-conf:${CC_MULTI_HUB_ENVIRONMENT}
@@ -153,4 +153,4 @@ networks:
   multi-gateway-network:
     ipam:
       config:
-        - subnet: ${MULTI_GATEWAY_SUBNET}
+        - subnet: ${CC_MULTI_HUB_SUBNET}
