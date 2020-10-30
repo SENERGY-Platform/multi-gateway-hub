@@ -28,7 +28,7 @@ conf_vars=(
     "CC_MULTI_HUB_CONNECTORCONF_CREDENTIALS=user:user;pw:pw"
     "CC_MULTI_HUB_CONNECTORCONF_HUB=multi-hub"
     "CC_MULTI_HUB_CONNECTORCONF_API=host:localhost;hub_endpt:device-manager/hubs;device_endpt:device-manager/local-devices;tls:False"
-    "CC_MULTI_HUB_SUBNET=10.40.0.0./16"
+    "CC_MULTI_HUB_SUBNET=10.40.0.0/16"
 )
 
 env_vars=(
