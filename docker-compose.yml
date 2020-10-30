@@ -134,6 +134,8 @@ services:
     devices:
       - '/dev/ttyAMA0:/dev/ttyAMA0'
     restart: unless-stopped
+    links:
+      - message-broker
     networks:
       - multi-gateway-network
 
