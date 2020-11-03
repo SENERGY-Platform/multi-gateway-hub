@@ -109,7 +109,7 @@ services:
       - BROKER_PORT=1883
       - CONTAINER_BROKER_HOST=message-broker
       - CONTAINER_NETWORK=multi-gateway-network
-      - CONTAINER_PULL_IMAGE=false
+      - CONTAINER_PULL_IMAGE=true
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - analytics-fog-agent-data:/root/data

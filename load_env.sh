@@ -26,7 +26,7 @@ conf_vars=(
     "CC_MULTI_HUB_CONNECTORCONF_CONNECTOR=host:localhost;port:1883;tls:False;enable_fog:True"
     "CC_MULTI_HUB_CONNECTORCONF_AUTH=host:localhost;path:auth/realms/master/protocol/openid-connect/token;tls:True;id:client-id"
     "CC_MULTI_HUB_CONNECTORCONF_CREDENTIALS=user:user;pw:pw"
-    "CC_MULTI_HUB_CONNECTORCONF_HUB=multi-hub"
+    "CC_MULTI_HUB_CONNECTORCONF_HUB=name:multi-hub"
     "CC_MULTI_HUB_CONNECTORCONF_API=host:localhost;hub_endpt:device-manager/hubs;device_endpt:device-manager/local-devices;tls:False"
     "CC_MULTI_HUB_SUBNET=10.40.0.0/16"
 )
