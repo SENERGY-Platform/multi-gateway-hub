@@ -119,8 +119,7 @@ services:
     networks:
       - multi-gateway-network
 
-  z-way-multi:
-    container_name: z-way-multi
+  z-way:
     image: smartenergyplatform/z-way-cc:dev
     expose:
       - 8083
