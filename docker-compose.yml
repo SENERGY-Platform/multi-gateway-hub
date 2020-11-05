@@ -77,7 +77,7 @@ services:
       - TDCCONF_CLIENT_DEVICE_TOPIC=device
       - TDCCONF_CLIENT_LW_TOPIC=lw
       - TDCCONF_CLIENT_EVENT_TOPIC=event
-      - TDCCONF_CLIENT_COMMAND_TOPIC=commandsig
+      - TDCCONF_CLIENT_COMMAND_TOPIC=command
       - TDCCONF_CLIENT_RESPONSE_TOPIC=response
       - TDCCONF_CLIENT_KEEP_ALIVE=10
       - TDCCONF_DEVICES_TYPE=urn:infai:ses:device-type:f4bb792a-b8d3-41d6-98a8-4407b5192d0e
